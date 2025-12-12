@@ -12,7 +12,7 @@ import axios from "axios";
 import "./App.css";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://student-performance-backend-f07w.onrender.com/api",
 });
 
 // Automatically attach auth token to every request.
